@@ -80,6 +80,7 @@ It produces:
 ```
 
 Batch Workflow
+
 15 Support Tickets
 |
 v
@@ -94,31 +95,35 @@ Batch Processor
 +--> Human Review Check
 |
 v
-data/output.json 4. Technology Stack
-Technology Purpose
-Python Application development
-Google Gemini API AI-based ticket classification
-Pydantic Structured data validation
-python-dotenv Environment variable management
-pytest Automated testing
-JSON Input and output data 5. Project Structure
-support-ticket-triage-agent/
-│
-├── data/
-│ ├── sample_tickets.json
-│ └── output.json
-│
-├── tests/
-│ └── test_agent.py
-│
-├── .gitignore
-├── models.py
-├── agent.py
-├── routing.py
-├── batch.py
-├── main.py
-├── requirements.txt
-└── README.md
+data/output.json
+
+4. Technology Stack
+   Technology Purpose
+   Python Application development
+   Google Gemini API AI-based ticket classification
+   Pydantic Structured data validation
+   python-dotenv Environment variable management
+   pytest Automated testing
+   JSON Input and output data
+
+5. Project Structure
+   support-ticket-triage-agent/
+   │
+   ├── data/
+   │ ├── sample_tickets.json
+   │ └── output.json
+   │
+   ├── tests/
+   │ └── test_agent.py
+   │
+   ├── .gitignore
+   ├── models.py
+   ├── agent.py
+   ├── routing.py
+   ├── batch.py
+   ├── main.py
+   ├── requirements.txt
+   └── README.md
 
 Note: .env and venv/ are local-only files and are excluded from GitHub through .gitignore.
 
@@ -133,7 +138,9 @@ Delivery
 Refund
 Product
 Security
-Other 7. Urgency Levels
+Other
+
+7. Urgency Levels
 
 The agent supports four urgency levels:
 
@@ -213,7 +220,9 @@ A ticket uses the following structure:
 "ticket_id": "T001",
 "subject": "Payment deducted but order failed",
 "body": "The amount was deducted but my order failed."
-} 11. Output Format
+}
+
+11. Output Format
 
 The agent produces structured output such as:
 
@@ -225,11 +234,13 @@ The agent produces structured output such as:
 "routing_team": "Billing Team",
 "human_review": false,
 "reason": "The customer was charged for an order that failed."
-} 12. Installation
-Clone the Repository
-git clone https://github.com/Chetan117211/support-ticket-triage-agent.git
-cd support-ticket-triage-agent
-Create a Virtual Environment
+}
+
+12. Installation
+    Clone the Repository
+    git clone https://github.com/Chetan117211/support-ticket-triage-agent.git
+    cd support-ticket-triage-agent
+    Create a Virtual Environment
 
 Windows:
 
@@ -266,7 +277,9 @@ urgency: High
 confidence: 0.95
 routing_team: Billing Team
 human_review: False
-reason: The customer was charged money for an order that failed... 15. Run Batch Processing
+reason: The customer was charged money for an order that failed...
+
+15. Run Batch Processing
 
 Sample tickets are stored in:
 
@@ -292,7 +305,9 @@ Processing T015...
 
 ===== BATCH COMPLETE =====
 Processed tickets: 15
-Output saved to: data/output.json 16. Testing
+Output saved to: data/output.json
+
+16. Testing
 
 The project includes automated tests for the deterministic logic.
 
@@ -393,7 +408,9 @@ Asynchronous batch processing
 Authentication
 Monitoring and logging
 Human feedback collection
-Evaluation against a labeled benchmark dataset 21. Sample Result
+Evaluation against a labeled benchmark dataset
+
+21. Sample Result
 
 The sample batch contains 15 tickets.
 
@@ -418,24 +435,27 @@ This demonstrates the agent's ability to avoid making an automatic decision when
 
 The complete classified batch output is available in:
 
-data/output.json 22. Assessment Requirements
-Requirement Implementation
-Accept support ticket subject + body Ticket model
-Category classification Gemini
-Urgency classification Gemini
-Confidence score Gemini + Pydantic validation
-Team routing Deterministic Python routing
-Human review Confidence threshold
-Batch processing batch.py
-Sample tickets data/sample_tickets.json
-Classified output data/output.json
-Decision boundary explanation README
-Runnable agent main.py / batch.py
-Tests tests/test_agent.py
-Setup instructions README
-Tradeoff notes README 23. Conclusion
+data/output.json
 
-The Support Ticket Triage Agent combines LLM-based natural-language understanding with deterministic business rules.
+22. Assessment Requirements
+    Requirement Implementation
+    Accept support ticket subject + body Ticket model
+    Category classification Gemini
+    Urgency classification Gemini
+    Confidence score Gemini + Pydantic validation
+    Team routing Deterministic Python routing
+    Human review Confidence threshold
+    Batch processing batch.py
+    Sample tickets data/sample_tickets.json
+    Classified output data/output.json
+    Decision boundary explanation README
+    Runnable agent main.py / batch.py
+    Tests tests/test_agent.py
+    Setup instructions README
+    Tradeoff notes README 23. Conclusion
+
+23. Conclusion
+    The Support Ticket Triage Agent combines LLM-based natural-language understanding with deterministic business rules.
 
 The resulting workflow is:
 

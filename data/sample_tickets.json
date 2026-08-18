@@ -1,0 +1,77 @@
+[
+  {
+    "ticket_id": "T001",
+    "subject": "Payment deducted but order failed",
+    "body": "I placed an order yesterday. The amount was deducted from my bank account but the order still shows as failed."
+  },
+  {
+    "ticket_id": "T002",
+    "subject": "Cannot login to my account",
+    "body": "I have been trying to log into my account for the last hour but my password is not being accepted."
+  },
+  {
+    "ticket_id": "T003",
+    "subject": "Application crashes",
+    "body": "The application crashes every time I try to open the dashboard."
+  },
+  {
+    "ticket_id": "T004",
+    "subject": "Where is my package?",
+    "body": "My order was supposed to arrive three days ago but I still haven't received it."
+  },
+  {
+    "ticket_id": "T005",
+    "subject": "I want a refund",
+    "body": "The product I received is not what I expected. I would like to request a refund."
+  },
+  {
+    "ticket_id": "T006",
+    "subject": "How do I change my email?",
+    "body": "I want to update the email address associated with my account."
+  },
+  {
+    "ticket_id": "T007",
+    "subject": "Someone accessed my account",
+    "body": "I received a login notification from a location I don't recognize. I think someone accessed my account."
+  },
+  {
+    "ticket_id": "T008",
+    "subject": "Charged twice",
+    "body": "I purchased one item but my credit card was charged twice for the same order."
+  },
+  {
+    "ticket_id": "T009",
+    "subject": "Product information",
+    "body": "Can you provide more information about the features available in this product?"
+  },
+  {
+    "ticket_id": "T010",
+    "subject": "Website is slow",
+    "body": "The website takes a very long time to load pages today."
+  },
+  {
+    "ticket_id": "T011",
+    "subject": "Package arrived damaged",
+    "body": "My package arrived today but the product inside is damaged."
+  },
+  {
+    "ticket_id": "T012",
+    "subject": "Password reset",
+    "body": "I forgot my password and need instructions to reset it."
+  },
+  {
+    "ticket_id": "T013",
+    "subject": "Urgent security issue",
+    "body": "Someone has taken control of my account and changed my password. I cannot access it."
+  },
+  {
+    "ticket_id": "T014",
+    "subject": "Something is wrong",
+    "body": "Something isn't working properly. Please help."
+  },
+  {
+    "ticket_id": "T015",
+    "subject": "Order cancellation",
+    "body": "I placed an order a few minutes ago and would like to cancel it before it is shipped."
+  }
+]

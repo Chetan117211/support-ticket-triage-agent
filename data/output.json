@@ -1,0 +1,137 @@
+[
+  {
+    "ticket_id": "T001",
+    "category": "Billing",
+    "urgency": "High",
+    "confidence": 0.95,
+    "routing_team": "Billing Team",
+    "human_review": false,
+    "reason": "The customer was charged money for an order that failed, which represents a significant payment problem requiring prompt attention."
+  },
+  {
+    "ticket_id": "T002",
+    "category": "Account",
+    "urgency": "High",
+    "confidence": 0.95,
+    "routing_team": "Account Team",
+    "human_review": false,
+    "reason": "The customer is unable to access their account due to login issues, which falls under High urgency per the rules."
+  },
+  {
+    "ticket_id": "T003",
+    "category": "Technical",
+    "urgency": "High",
+    "confidence": 0.95,
+    "routing_team": "Technical Support",
+    "human_review": false,
+    "reason": "The user is experiencing a critical functionality failure as the application crashes immediately upon opening the dashboard, preventing core usage."
+  },
+  {
+    "ticket_id": "T004",
+    "category": "Delivery",
+    "urgency": "Medium",
+    "confidence": 0.95,
+    "routing_team": "Delivery Team",
+    "human_review": false,
+    "reason": "The customer is inquiring about the delayed shipment of their order, which falls directly under delivery issues and requires normal attention."
+  },
+  {
+    "ticket_id": "T005",
+    "category": "Refund",
+    "urgency": "Medium",
+    "confidence": 0.95,
+    "routing_team": "Billing Team",
+    "human_review": false,
+    "reason": "The customer explicitly stated they want a refund because the product did not meet their expectations."
+  },
+  {
+    "ticket_id": "T006",
+    "category": "Account",
+    "urgency": "Low",
+    "confidence": 0.95,
+    "routing_team": "Account Team",
+    "human_review": false,
+    "reason": "The customer is asking for instructions on how to change their account email address, which is a standard account management task with low urgency."
+  },
+  {
+    "ticket_id": "T007",
+    "category": "Security",
+    "urgency": "Critical",
+    "confidence": 0.98,
+    "routing_team": "Security Team",
+    "human_review": false,
+    "reason": "The ticket describes unauthorized access to an account, which is a serious security incident requiring immediate intervention."
+  },
+  {
+    "ticket_id": "T008",
+    "category": "Billing",
+    "urgency": "High",
+    "confidence": 0.95,
+    "routing_team": "Billing Team",
+    "human_review": false,
+    "reason": "The customer was charged twice for a single order, which is a significant payment problem and falls under Billing with high urgency."
+  },
+  {
+    "ticket_id": "T009",
+    "category": "Product",
+    "urgency": "Low",
+    "confidence": 0.95,
+    "routing_team": "Product Team",
+    "human_review": false,
+    "reason": "The customer is asking for more information about product features, which is a minor informational request about a product."
+  },
+  {
+    "ticket_id": "T010",
+    "category": "Technical",
+    "urgency": "Medium",
+    "confidence": 0.9,
+    "routing_team": "Technical Support",
+    "human_review": false,
+    "reason": "The customer is reporting a performance issue with the website loading slowly, which is a technical problem affecting normal usage."
+  },
+  {
+    "ticket_id": "T011",
+    "category": "Delivery",
+    "urgency": "Medium",
+    "confidence": 0.95,
+    "routing_team": "Delivery Team",
+    "human_review": false,
+    "reason": "The customer received a damaged product in their package, which is a delivery/shipping issue requiring a replacement or refund."
+  },
+  {
+    "ticket_id": "T012",
+    "category": "Account",
+    "urgency": "High",
+    "confidence": 0.95,
+    "routing_team": "Account Team",
+    "human_review": false,
+    "reason": "The user is requesting instructions to reset their password, which falls under account access issues and is classified as high urgency according to the rules."
+  },
+  {
+    "ticket_id": "T013",
+    "category": "Security",
+    "urgency": "Critical",
+    "confidence": 1.0,
+    "routing_team": "Security Team",
+    "human_review": false,
+    "reason": "The customer is reporting a compromised account and unauthorized password change, which constitutes a critical security incident requiring immediate intervention."
+  },
+  {
+    "ticket_id": "T014",
+    "category": "Technical",
+    "urgency": "Low",
+    "confidence": 0.3,
+    "routing_team": "Human Review",
+    "human_review": true,
+    "reason": "The ticket is extremely vague and provides no specific details about what is not working, making it ambiguous."
+  },
+  {
+    "ticket_id": "T015",
+    "category": "Delivery",
+    "urgency": "High",
+    "confidence": 0.95,
+    "routing_team": "Delivery Team",
+    "human_review": false,
+    "reason": "The customer wants to cancel an order immediately before it is shipped, requiring time-sensitive fulfillment intervention."
+  }
+]
